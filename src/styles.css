@@ -1,0 +1,30 @@
+@import url("https://bermuda-css.netlify.app/style.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.todo-input input {
+  font-size: calc(var(--scale-md) + var(--scale-sm));
+  font-weight: 700;
+}
+.todo-input input:focus {
+  box-shadow: 0px 0px 3px 2px var(--off-white);
+}
+li button {
+  font-size: var(--scale-lg);
+}
+.strike {
+  text-decoration: line-through;
+  opacity: 0.4;
+  color: var(--danger-color);
+}
+.list__items {
+  cursor: pointer !important;
+}
+
+.flex-spaced-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
